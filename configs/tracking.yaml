@@ -15,7 +15,7 @@ track_management:
 
 motion_discovery:
   flow_threshold: 25.0
-  min_area_ratio: 0.001
-  max_area_ratio: 0.50
+  min_area_ratio: 0.005
+  max_area_ratio: 0.30
   expand_pixels: 15
   morph_kernel_size: 5

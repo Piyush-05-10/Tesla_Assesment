@@ -1,7 +1,7 @@
 waymo:
   raw_parquet_dir: "C:\\Users\\piyus\\Desktop\\Waymo-file"
   camera_name: 1
-  max_files: 1
+  max_files: null
 
 preprocessing:
   target_height: 480
