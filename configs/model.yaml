@@ -1,0 +1,20 @@
+dinov2:
+  variant: "dinov2_vits14"
+  embedding_dim: 384
+  input_size: 224
+  use_cls_token: true
+  batch_size: 64
+  device: "auto"
+
+projection_head:
+  enabled: false
+  hidden_dim: 256
+  output_dim: 128
+  num_layers: 2
+
+ssl:
+  enabled: false
+  loss: "infonce"
+  temperature: 0.07
+  epochs: 30
+  lr: 3.0e-4

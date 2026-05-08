@@ -1,0 +1,15 @@
+pandas
+pyarrow
+fastparquet
+numpy
+opencv-python
+pillow
+torch
+torchvision
+filterpy
+scipy
+scikit-learn
+hdbscan
+matplotlib
+tqdm
+pyyaml

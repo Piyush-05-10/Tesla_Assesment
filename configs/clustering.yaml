@@ -1,0 +1,17 @@
+kmeans:
+  n_clusters: 8
+  n_init: "auto"
+  max_iter: 300
+  random_state: 42
+
+hdbscan:
+  min_cluster_size: 30
+  min_samples: 10
+  metric: "euclidean"
+  cluster_selection_method: "eom"
+  prediction_data: true
+
+evaluation:
+  silhouette: true
+  calinski_harabasz: true
+  sample_grid_size: 20

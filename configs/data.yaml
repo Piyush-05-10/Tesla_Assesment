@@ -1,0 +1,19 @@
+waymo:
+  raw_parquet_dir: "C:\\Users\\piyus\\Desktop\\Waymo-file"
+  camera_name: 1
+  max_files: 1
+
+preprocessing:
+  target_height: 480
+  target_width: 640
+  subsample_rate: 5
+  normalize: true
+  mean: [0.485, 0.456, 0.406]
+  std:  [0.229, 0.224, 0.225]
+
+output:
+  frames_dir: "data/intermediate/frames"
+  crops_dir: "data/intermediate/crops"
+  embeddings_dir: "data/processed/embeddings"
+  clusters_dir: "data/processed/clusters"
+  tracks_dir: "data/processed/tracks"

@@ -1,0 +1,21 @@
+kalman:
+  process_noise_scale: 0.01
+  measurement_noise_scale: 10.0
+  initial_velocity_var: 1000.0
+
+association:
+  appearance_weight: 0.7
+  max_cost_threshold: 1.5
+  iou_threshold: 0.3
+
+track_management:
+  max_age: 5
+  min_hits: 2
+  embedding_momentum: 0.9
+
+motion_discovery:
+  flow_threshold: 25.0
+  min_area_ratio: 0.001
+  max_area_ratio: 0.50
+  expand_pixels: 15
+  morph_kernel_size: 5
